@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>原型与原型链</title>
+      <link href="/2022/11/28/%E5%8E%9F%E5%9E%8B%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE/"/>
+      <url>/2022/11/28/%E5%8E%9F%E5%9E%8B%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前端八股文-原型与原型链"><a href="#前端八股文-原型与原型链" class="headerlink" title="前端八股文-原型与原型链"></a>前端八股文-原型与原型链</h1><blockquote><p>参考黑马前端 <a href="https://www.bilibili.com/video/BV1w8411s7g3/?p=9&spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=d33de799b11664dc4c602e9532f08886">b站视频链接</a>  </p></blockquote><h2 id="什么是原型"><a href="#什么是原型" class="headerlink" title="什么是原型"></a>什么是原型</h2><p>每个函数都有<code>prototype</code>属性 称之为原型，因为这个属性的值是个对象，也称为原型对象  </p><blockquote><blockquote><p>作用：1、存放一些属性和方法 2、在Js中实现继承(实例对象可以共享它里面的方法)  </p></blockquote></blockquote><h2 id="proto-对象原型"><a href="#proto-对象原型" class="headerlink" title="__proto__对象原型"></a>__proto__对象原型</h2><p>每个对象都有__proto__属性  </p><blockquote><blockquote><p>作用：用来指向它的原型对象<br>代码块：<br>    var arr = new Array();<br>    console.log(arr.__proto === Array.prototype); // true<br>通过这个__proto__我们就可以使用原型对象prototype里的属性和方法啦</p></blockquote></blockquote><h2 id="原型链"><a href="#原型链" class="headerlink" title="原型链"></a>原型链</h2><p>通过__proto__一层一层的往上找，直到值为null  </p><p><img src="/img/%E5%8E%9F%E5%9E%8B%E9%93%BE.png" alt="原型链图片"></p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p><img src="/img/%E5%8E%9F%E5%9E%8B%E6%80%BB%E7%BB%93.png" alt="总结"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>第一篇文章</title>
       <link href="/2022/11/28/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
       <url>/2022/11/28/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
